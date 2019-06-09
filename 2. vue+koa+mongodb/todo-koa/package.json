@@ -1,0 +1,25 @@
+{
+    "name": "Todo-Koa",
+    "version": "1.0.0",
+    "description": "Todo App Based on Koa",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "Qinfei Chen",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "bcrypt": "^3.0.0",
+        "koa": "^2.7.0",
+        "koa-bodyparser": "3.2.0",
+        "koa-router": "7.0.0",
+        "koa-session": "^5.10.1",
+        "koa2-cors": "^2.0.6",
+        "mongoose": "^5.2.7",
+        "uuid": "^3.3.2"
+    }
+}
